@@ -124,3 +124,15 @@
     border-radius: 4rem;   
 }
 /* #endregion ex_8 */
+
+/* #region ex_9 */
+.ex-9-img {
+    transition: all 1s;
+}
+
+.ex-9-img:hover {
+    filter: hue-rotate(180deg) invert(100%);
+    border-radius: 4rem; 
+    scale: 1.5;
+}
+/* #endregion ex_9 */
