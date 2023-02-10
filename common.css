@@ -181,3 +181,43 @@
     }
 }
 /* #endregion ex_10 */
+
+/* #region ex_11 */
+.ex-11-icon:hover {
+    animation: rotate_reverse 1s;
+}
+
+@keyframes rotate_reverse {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    12.5% {
+        transform: rotate(45deg);
+    }
+
+    25% {
+        transform: rotate(90deg);
+    }
+
+    37.5% {
+        transform: rotate(135deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    62.5% {
+        transform: rotate(225deg);
+    }
+
+    75% {
+        transform: rotate(270deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+/* #endregion ex_11 */
