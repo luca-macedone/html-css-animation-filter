@@ -97,3 +97,9 @@
     scale: .5;
 }
 /* #endregion ex_5 */
+
+/* #region ex_6 */
+.ex-6-img:hover {
+    filter: grayscale(1);
+}
+/* #endregion ex_6 */
