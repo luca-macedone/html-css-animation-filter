@@ -131,8 +131,53 @@
 }
 
 .ex-9-img:hover {
-    filter: hue-rotate(180deg) invert(100%);
+    filter: hue-rotate(50deg) invert(100%);
     border-radius: 4rem; 
     scale: 1.5;
 }
 /* #endregion ex_9 */
+
+/* #region ex_10 */
+.ex-10-icon {
+    animation: rotate 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    12.5% {
+        transform: rotate(45deg);
+    }
+
+    25% {
+        transform: rotate(90deg);
+    }
+
+    37.5% {
+        transform: rotate(135deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    62.5% {
+        transform: rotate(225deg);
+    }
+
+    75% {
+        transform: rotate(270deg);
+    }
+
+    87.5% {
+        transform: rotate(315deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+/* #endregion ex_10 */
