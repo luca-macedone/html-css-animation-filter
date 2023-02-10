@@ -113,3 +113,14 @@
     filter: grayscale(60%) hue-rotate(90deg);
 }
 /* #endregion ex_7 */
+
+/* #region ex_8 */
+.ex-8-img {
+    transition: all 1s;
+}
+
+.ex-8-img:hover {
+    filter: grayscale(50%) hue-rotate(60deg);
+    border-radius: 4rem;   
+}
+/* #endregion ex_8 */
